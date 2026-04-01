@@ -35,7 +35,7 @@ resource "render_web_service" "adminer" {
   region = "frankfurt"
   runtime_source = {
     image = {
-      image_url = "docker.io/adminer"
+      image_url = "docker.io/library/adminer"
     }
   }
 }
