@@ -14,3 +14,8 @@ variable "image_url" {
 variable "image_tag" {
   type = string
 }
+env_vars = {
+  ENV = {
+    value = "production"
+  }
+}
